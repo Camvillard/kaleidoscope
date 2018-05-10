@@ -6,7 +6,7 @@
  * @since       1.0.0
  * @author      camille villard
  * @link        https://camillevillard.io
- * @license     GNU General Public License 2.0+
+ * @license     protected by copyright / free for personal use only
  */
 namespace kaleidoscope\Customizer;
 
@@ -17,7 +17,7 @@ add_action( 'customize_register', __NAMESPACE__ . '\register_with_customizer' );
  * Register settings and controls with the Customizer.
  *
  * @since 1.0.0
- * 
+ *
  * @param WP_Customize_Manager $wp_customize Customizer object.
  */
 function register_with_customizer() {

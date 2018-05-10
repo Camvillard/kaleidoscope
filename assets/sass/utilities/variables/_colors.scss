@@ -4,8 +4,6 @@ $white: #fff;
 $black: #000;
 $red: #c3251d;
 $gray--light: #ccc;
-$gray--lighter: #eee;
-$gray--light: #ddd;
 $gray--medium: #777;
 $gray: #333;
 
@@ -18,7 +16,7 @@ $link--hover-color: $gray;
 
 // Elements
 $base__color: $gray;
-$body--background-color: $gray--lighter;
+$body--background-color: $white;
 
 // Form Elements
 $input--background-color: $white;
@@ -29,7 +27,7 @@ $button--background-color: $gray;
 $button--color: $white;
 $button--hover-background-color: $red;
 $button--hover-color: $white;
-$button--disabled-background-color: $gray--lighter;
+$button--disabled-background-color: $gray--light;
 $button--disable-color: $gray--medium;
 
 //
@@ -43,20 +41,20 @@ $site-title--link-color: $gray;
 //============================
 $nav--link-color: $gray;
 $nav--hover-color: $red;
-$submenu--border-color: $gray--lighter;
+$submenu--border-color: $gray--light;
 $submenu--link-background-color: $white;
 
 $primary-nav--background-color: $white;
-$primary-nav--border-color: $gray--lighter;
+$primary-nav--border-color: $gray--light;
 $primary-nav--link-color: $nav--link-color;
 
 $secondary-nav--background-color: $white;
-$secondary-nav--border-color: $gray--lighter;
+$secondary-nav--border-color: $gray--light;
 $secondary-nav--link-color: $nav--link-color;
 
-$js-nav--background-color: $white;
-$js-nav--hover-color: $black;
-$js-nav--focus-color: $red;
+$responsive-nav--background-color: $white;
+$responsive-nav--hover-color: $black;
+$responsive-nav--focus-color: $red;
 
 $nav-toggle--background-color: $white;
 $nav-toggle--color: $gray;
@@ -70,17 +68,17 @@ $archive-pagination--hover-color: $white;
 // Footer
 //============================
 $siteFooter--background-color: $white;
-$site-footer--border-color: $gray--lighter;
+$site-footer--border-color: $gray--light;
 $footer-widgets--background-color: $white;
 
 //
 // Entry Content
 //===================
-$entry-footer__meta--border-color: $gray--lighter;
+$entry-footer__meta--border-color: $gray--light;
 $entry--background-color: $white;
 $entry-title--link-color: $gray;
 $entry-title--hover-color: $red;
-$entry-content__code--background-color: $gray--lighter;
+$entry-content__code--background-color: $gray--light;
 $entry-content__code--color: $gray;
 
 //

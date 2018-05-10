@@ -1,6 +1,6 @@
 //
-// Widget Base Stylings
-//========================
+/* ----- a. widgets : base styling ----- */
+//
 
 .widget {
   margin-bottom: 40px;
@@ -33,6 +33,11 @@
 .widget ul > li:last-of-type,
 .widget-area .widget:last-of-type {
   margin-bottom: 0;
+}
+
+.widget-title {
+  @include rem( font-size, $widget-title--font-size );
+  margin-bottom: 20px;
 }
 
 @media only screen and (max-width: 860px) {

@@ -6,7 +6,7 @@
  * @since       1.0.0
  * @author      camille villard
  * @link        https://camillevillard.io
- * @license     GNU General Public License 2.0+
+ * @license     protected by copyright / free for personal use only
  */
 namespace kaleidoscope;
 
@@ -50,9 +50,10 @@ return array(
 		),
 		'genesis-menus'               => array(
 			'primary' => __( 'Primary Navigation Menu', CHILD_TEXT_DOMAIN ),
+			'secondary' => __( 'Secondary Navigation Menu', CHILD_TEXT_DOMAIN ),
 			'footer'  => __( 'Footer Navigation Menu', CHILD_TEXT_DOMAIN ),
 		),
-//		'genesis-after-entry-widget-area' => null,
+		'genesis-after-entry-widget-area' => null,
 	),
 
 

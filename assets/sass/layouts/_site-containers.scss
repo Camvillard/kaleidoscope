@@ -1,5 +1,7 @@
-/* ## Site Containers
---------------------------------------------- */
+//
+/* ----- a. site containers ----- */
+//
+
 
 .site-inner,
 .wrap {
@@ -8,10 +10,10 @@
 
 
   @media screen and (max-width: 1340px) {
-    max-width: $max-width-larger-screen;
+    max-width: $max-width--big-screen;
   }
   @media screen and (max-width: 1200px) {
-    max-width: $max-width-large-screen;
+    max-width: $max-width--large-screen;
   }
 
   @media screen and (max-width: 1023px) {
@@ -37,5 +39,5 @@
 }
 
 .landing-page .site-inner {
-  max-width: $max-width__landing-page;
+  max-width: $max-width--landing-page;
 }

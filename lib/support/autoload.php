@@ -2,19 +2,12 @@
 /**
  * File autoloader
  *
- * We could use Composer, but it feels a bit heavy for the number of files we need to load up.  As this is procedural
- * and not OOP, we can handle loading the files directly right here in this file.  Now to add more files to be loaded,
- * well shucks you can do that right here.  A function is provided for each folder.
- *
- * Resist the temptation to add widgets, custom post types, taxonomies, and/or shortcodes in your theme.  Those features
- * go into a plugin and not in your theme.  If you put them here, I want you to picture me shaking my head back and
- * forth.  Come on....I taught you better than that.
  *
  * @package     kaleidoscope
  * @since       1.0.0
  * @author      camille villard
  * @link        https://camillevillard.io
- * @license     GNU General Public License 2.0+
+ * @license     protected by copyright / free for personal use only
  */
 namespace kaleidoscope\Support;
 

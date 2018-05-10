@@ -1,8 +1,9 @@
-/* # Content Area
----------------------------------------------------------------------------------------------------- */
+//
+/* ----- c.  content area ----- */
+//
 
-@import "base";
-@import "entry-meta";
+@import "structure";
 @import "entry-header/index";
-@import "entry-content";
+@import "entry-content/index";
 @import "entry-footer/index";
+@import "after-entry";

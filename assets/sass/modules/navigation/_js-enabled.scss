@@ -1,24 +1,26 @@
-//
-// .js enabled styles
-//=======================
+/* ----- header navigation : responsive styles ----- */
 
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: $screen-size--regular ) {
 
   .js {
+
+    .nav-primary {
+    display: none;
+    }
     .genesis-nav-menu {
       .sub-menu, .sub-menu a {
-        width: 100%;
+      width: 100%;
       }
 
       .menu-item:hover {
-        position: relative;
+      position: relative;
       }
 
       .menu-item > a:focus {
         ul.sub-menu,
         ul.sub-menu .sub-menu {
-          left: 0;
-          margin-left: 0;
+        left: 0;
+        margin-left: 0;
         }
       }
 
@@ -27,17 +29,17 @@
       }
 
       .sub-menu {
-        border: none;
-        clear: both;
-        display: none;
-        margin: 0;
-        opacity: 1;
-        padding-left: 15px;
-        position: static;
-        width: 100%;
+      border: none;
+      clear: both;
+      display: none;
+      margin: 0;
+      opacity: 1;
+      padding-left: 15px;
+      position: static;
+      width: 100%;
 
         .sub-menu {
-          margin: 0;
+        margin: 0;
         }
       }
     }
@@ -63,18 +65,18 @@
     .nav-primary,
     nav button:focus,
     .menu-toggle:focus {
-      background-color: $js-nav--background-color;
+      background-color: $responsive-nav--background-color;
     }
 
     nav button:hover,
     .menu-toggle:hover,
     .nav-primary {
-      color: $js-nav--hover-color;
+      color: $responsive-nav--hover-color;
     }
 
     nav button:focus,
     .menu-toggle:focus {
-      color: $js-nav--focus-color;
+      color: $responsive-nav--focus-color;
     }
   }
 }

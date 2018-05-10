@@ -1,6 +1,8 @@
-//
-// templates
-// Note: These do not compile into your style.css file.
-//==============================
+/* 6. TEMPLATES
+----------------------------------- */
 
-@import "posts-page/index";
+@import "frontpage/index";
+@import "page-about";
+@import "page-contact";
+@import "page-blogroll";
+@import "archives/index";

@@ -7,22 +7,22 @@ body {
   background-color: $body--background-color;
   color: $base__color;
   font-family: $base--font-family;
-  @include rem( font-size, $base--font-size );
+  @include rem( font-size, $base--mobile--font-size );
   -webkit-font-smoothing: antialiased;
-  font-weight: 400;
+  font-weight: $font-weight-normal;
   line-height: $base--line-height;
   margin: 0;
 
-   @media screen and (max-width: 640px) {
-    font-size: $base--font-size--small-screen;
+   @media screen and (min-width: $screen-size--small) {
+      @include rem( font-size, $base--font-size );
   }
 
   /* Chrome fix */
   > div {
-    font-size: $base__div--font-size;
+    font-size: $base--div--font-size;
 
      @media screen and (max-width: 640px) {
-      font-size: $base__div--font-size--small-screen;
+      font-size: $base--div--mobile--font-size;
     }
   }
 }
