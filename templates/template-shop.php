@@ -1,7 +1,7 @@
 <?php
 /**
  *
- * Template for single post
+ * Template Name: shop page
  *
  *
  * @package     kaleidoscope
@@ -11,9 +11,17 @@
  * @license     protected by copyright / free for personal use only
  */
 
- namespace kaleidoscope\single;
+ namespace kaleidoscope\shop;
 
 
 
- // run the genesis loop
-  genesis();
+
+
+
+
+
+
+
+
+// run the genesis loop
+ genesis();
